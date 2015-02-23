@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>RacaMasterAckProxy</servlet-name>
+    <servlet-class>raca.server.RacaMasterAckProxy</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RacaMasterAckProxy</servlet-name>
+    <url-pattern>/racamasterackproxy</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RacaMasterQueueProxy</servlet-name>
+    <servlet-class>raca.server.RacaMasterQueueProxy</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RacaMasterQueueProxy</servlet-name>
+    <url-pattern>/racamasterqueueproxy</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RacaMediatorProxy</servlet-name>
+    <servlet-class>raca.server.RacaMediatorProxy</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RacaMediatorProxy</servlet-name>
+    <url-pattern>/racamediatorproxy</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RacaMasterPublishProxy</servlet-name>
+    <servlet-class>raca.server.RacaMasterPublishProxy</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RacaMasterPublishProxy</servlet-name>
+    <url-pattern>/racamasterpublishproxy</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RacaSendProxy</servlet-name>
+    <servlet-class>raca.server.RacaSendProxy</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RacaSendProxy</servlet-name>
+    <url-pattern>/racasendproxy</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>RacaPupilAckProxy</servlet-name>
+      <servlet-class>raca.server.RacaPupilAckProxy</servlet-class>
+      <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>RacaPupilAckProxy</servlet-name>
+      <url-pattern>/racapupilackproxy</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>RacaMasterCommandProxy</servlet-name>
+      <servlet-class>raca.server.RacaMasterCommandProxy</servlet-class>
+      <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>RacaMasterCommandProxy</servlet-name>
+      <url-pattern>/racamastercommandproxy</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>RacaMasterReqProxy</servlet-name>
+      <servlet-class>raca.server.RacaMasterReqProxy</servlet-class>
+      <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>RacaMasterReqProxy</servlet-name>
+      <url-pattern>/racamasterreqproxy</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>RacaPupilCommandProxy</servlet-name>
+      <servlet-class>raca.server.RacaPupilCommandProxy</servlet-class>
+      <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>RacaPupilCommandProxy</servlet-name>
+      <url-pattern>/racapupilcommandproxy</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>RacaPupilPublishProxy</servlet-name>
+      <servlet-class>raca.server.RacaPupilPublishProxy</servlet-class>
+      <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>RacaPupilPublishProxy</servlet-name>
+      <url-pattern>/racapupilpublishproxy</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>RacaPupilReqProxy</servlet-name>
+      <servlet-class>raca.server.RacaPupilReqProxy</servlet-class>
+      <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>RacaPupilReqProxy</servlet-name>
+      <url-pattern>/racapupilreqproxy</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
